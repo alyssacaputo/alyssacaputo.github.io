@@ -1,10 +1,6 @@
-console.log("writing to console");
 var randomNumber = Math.floor(Math.random() * 8);
-window.alert("before switch");
-window.alert(randomNumber);
 switch(randomNumber){
   case 0: 
-    window.alert("reached 0");
     window.location.replace('https://drive.google.com/open?id=1UKct_NGAMdIiawU7Nm4buGwL4WuyEBYR7Wy3kAfvSGo');
     break;
   case 1: 
